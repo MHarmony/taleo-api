@@ -1,0 +1,24 @@
+{
+    "name": "taleo-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon",
+        "start": "node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "dotenv": "^8.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.35",
+        "nodemon": "^2.0.7",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.3"
+    }
+}
